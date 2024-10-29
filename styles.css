@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+.bird-container {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+
+.bird-name {
+  font-family: "Arvo", sans-serif; /* Your existing font */
+  font-size: 1.2rem;
+  color: #dbedf3;
+  margin-top: 8px;
+}
+
+.latin-name {
+  font-family: "Times New Roman", serif; /* Cursive-like font */
+  font-size: 1rem;
+  font-style: italic;
+  color: #dbedf3;
+  margin-top: 2px;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #dbedf3;
+  font-family: "Arvo";
+  text-shadow: 5px 0 #da0463;
+  letter-spacing: 0.3rem;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url("./images/cardinal.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.a {
+  background-image: url("./images/sparrow.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.s {
+  background-image: url("./images/robin.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.d {
+  background-image: url("./images/starling.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.j {
+  background-image: url("./images/bluejay.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.k {
+  background-image: url("./images/barnswallow.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.l {
+  background-image: url("./images/mockingbird.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.set {
+  margin: 10% auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  justify-content: center;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 3rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.pressed {
+  transform: scale(0.9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease;
+}
